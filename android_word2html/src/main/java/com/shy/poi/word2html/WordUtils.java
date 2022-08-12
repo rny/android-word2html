@@ -64,7 +64,7 @@ public class WordUtils {
     private String imgBegin = "<img src=\"%s\" width=\"100%\" height=\"auto\">";
 
     private static WordUtils instance = null;
-    private WordUtils(BasicSet basicSet) {
+    public WordUtils(BasicSet basicSet) {
         initSetting(basicSet);
     }
     public static WordUtils getInstance(BasicSet basicSet) {
